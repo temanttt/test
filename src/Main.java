@@ -19,7 +19,7 @@ public class Main {
         int mask = (Integer.highestOneBit(num) - 1);
         return ~num & mask;
     }
-
+//!
     public static void main(String[] args) {
         System.out.println(Integer.toBinaryString(findComplement(5)));
         System.out.println(Integer.toBinaryString(5));
